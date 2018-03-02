@@ -123,6 +123,11 @@
     <Compile Include="MonoDevelop.DotNetCore.Gui\GtkDotNetCoreProjectTemplateWizardPageWidget.cs" />
     <Compile Include="gtk-gui\MonoDevelop.DotNetCore.Gui.GtkDotNetCoreProjectTemplateWizardPageWidget.cs" />
     <Compile Include="MonoDevelop.DotNetCore\MSBuildSdksPathGlobalPropertyProvider.cs" />
+    <Compile Include="MonoDevelop.DotNetCore.Gui\DotNetCoreSdkLocationPanel.cs" />
+    <Compile Include="MonoDevelop.DotNetCore.Gui\DotNetCoreSdkLocationWidget.cs" />
+    <Compile Include="MonoDevelop.DotNetCore.Gui\DotNetCoreSdkLocationWidget.UI.cs">
+      <DependentUpon>DotNetCoreSdkLocationWidget.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MonoDevelop.DotNetCore\" />
